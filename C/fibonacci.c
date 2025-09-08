@@ -7,11 +7,7 @@ printf("Fibonacci Series: ");
 while (count < m) { 
 printf("%d ", a); 
 temp = a + b; 
- HEAD
 a = b; 
-
-a = b;
- 09bcfc0 (oops)
 b = temp; 
 count++; 
 } 
